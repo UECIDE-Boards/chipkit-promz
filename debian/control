@@ -23,7 +23,7 @@ Description: chipKIT Pro MZ
 Package: chipkit-promz-boot
 Section: boards
 Architecture: all
-XBSC-Group: chpiKIT
+XBSC-Group: chipKIT
 XBSC-Subgroup: Bootloader
 Depends: chipkit
 Description: chipKIT Pro MZ (Bootloader)
