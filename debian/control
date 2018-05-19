@@ -1,0 +1,33 @@
+Source: ckpro
+Section: libraries
+XBSC-Family: pic32
+Priority: extra
+Maintainer: Matt Jenkins <matt@majenko.co.uk>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.4
+
+Package: chipkit-promz
+Section: boards
+Architecture: all
+XBSC-Group: chipKIT
+Depends: chipkit
+Recommends: 
+Description: chipKIT Pro MZ
+ Inspired by the venerable and popular Fubarino SD, the chipKIT Pro MZ is the first
+ of a series of Pro boards developed by Majenko Technologies.
+ .
+ Boasting a PIC32MZ MCU with 2MB of flash, 512kB of SRAM and a meaty FPU (all running at
+ 200MHz) this fully USB-enable board is the perfect drop-in replacement for the Fubarino 
+ SD when you need that little bit extra power.
+
+Package: chipkit-promz-boot
+Section: boards
+Architecture: all
+XBSC-Group: chpiKIT
+XBSC-Subgroup: Bootloader
+Depends: chipkit
+Description: chipKIT Pro MZ (Bootloader)
+ This is a board profile for compiling a bootloader for the chipKIT Pro MZ board.
+
+
+

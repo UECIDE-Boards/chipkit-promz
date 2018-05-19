@@ -1,0 +1,27 @@
+name=chipkit-promz-boot
+description=chipKIT Pro MZ (Bootloader)
+group=chipKIT
+
+platform=pic32
+board=_BOARD_CHIPKIT_PROMZ_
+board.define=
+
+upload.protocol=an1388
+upload.maximum_size=520192
+upload.speed=115200
+
+build.mcu=32MZ2048EFG064
+build.f_cpu=200000000UL
+build.core=chipkit
+core=chipkit
+
+ldcommon=chipKIT-application-COMMON-MZ-bootseg.ld
+ldscript=MZ-application-32MZ2048EFG-bootseg.ld
+
+family=pic32
+
+bootloader.file=${board:root}/chipKIT-WiFire
+
+an1388.vid=04d8
+an1388.pid=0f5f
+

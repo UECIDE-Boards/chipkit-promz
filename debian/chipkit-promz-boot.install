@@ -1,0 +1,7 @@
+chipkit-promz-boot/Board_Data.c boards/chpiKIT/chipkit-promz-boot
+chipkit-promz-boot/Board_Defs.h boards/chpiKIT/chipkit-promz-boot
+chipkit-promz-boot/MZ-application-32MZ2048EFG-bootseg.ld boards/chpiKIT/chipkit-promz-boot
+chipkit-promz-boot/MZ-application-32MZ2048EFG.ld boards/chpiKIT/chipkit-promz-boot
+chipkit-promz-boot/MZ-boot-linkerscript.ld boards/chpiKIT/chipkit-promz-boot
+chipkit-promz-boot/board.txt boards/chpiKIT/chipkit-promz-boot
+chipkit-promz-boot/chipKIT-application-COMMON-MZ-bootseg.ld boards/chpiKIT/chipkit-promz-boot

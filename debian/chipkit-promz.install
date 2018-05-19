@@ -1,0 +1,5 @@
+chipkit-promz/Board_Data.c boards/chipKIT/chipkit-promz
+chipkit-promz/Board_Defs.h boards/chipKIT/chipkit-promz
+chipkit-promz/MZ-application-32MZ2048EFG.ld boards/chipKIT/chipkit-promz
+chipkit-promz/board.txt boards/chipKIT/chipkit-promz
+chipkit-promz/promz.def boards/chipKIT/chipkit-promz
